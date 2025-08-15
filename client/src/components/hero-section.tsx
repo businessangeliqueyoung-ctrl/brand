@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import backgroundImage from "@assets/futuristic-digital-city.jpg
+import backgroundImage from "@assets/futuristic-digital-city.jpg";
 git add client/src/components/hero-section.tsx
 git commit -m "Fix hero image path for Vercel build"
 git push origin main
