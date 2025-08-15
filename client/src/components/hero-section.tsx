@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import backgroundImage from "@assets/futuristic-digital-city-stockcake.jpg";
+import futuristicCity from "../assets/futuristic-digital-city-stockcake.jpg";
 
 
 interface HeroSectionProps {
