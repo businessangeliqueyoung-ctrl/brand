@@ -36,11 +36,13 @@ export default function HeroSection({ onShowDemo }: HeroSectionProps) {
         ></div>
       </div>
 
+      {/* Content */}
       <div className="relative z-20 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
           <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-r from-neon-pink to-neon-cyan flex items-center justify-center mb-6 animate-pulse-neon">
             <span className="text-white font-bold text-2xl">db</span>
           </div>
+
           <h1
             className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6"
             data-testid="text-main-title"
@@ -49,11 +51,25 @@ export default function HeroSection({ onShowDemo }: HeroSectionProps) {
               Digital Branding Blueprint
             </span>
           </h1>
+
           <p
             className="text-xl sm:text-2xl text-light-gray mb-8 leading-relaxed"
             data-testid="text-main-subtitle"
           >
-           <p>
-  Master Your Digital Brand in today's competitive, fast-moving digital world.
-  Transform your ideas into powerful strategies.
-</p>
+            Master Your Digital Brand in today's competitive, fast-moving digital world.  
+            Transform your ideas into powerful strategies.
+          </p>
+
+          {onShowDemo && (
+            <Button
+              onClick={onShowDemo}
+              className="px-8 py-4 text-lg font-semibold"
+            >
+              See Demo
+            </Button>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
