@@ -53,5 +53,7 @@ export default function HeroSection({ onShowDemo }: HeroSectionProps) {
             className="text-xl sm:text-2xl text-light-gray mb-8 leading-relaxed"
             data-testid="text-main-subtitle"
           >
-            Master Your Digital Brand in today's competitive, fast-moving digital world.
-            Tr
+           <p>
+  Master Your Digital Brand in today's competitive, fast-moving digital world.
+  Transform your ideas into powerful strategies.
+</p>
